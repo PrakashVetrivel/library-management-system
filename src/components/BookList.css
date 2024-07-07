@@ -1,0 +1,50 @@
+/* BookList.css */
+
+.book-list {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  
+  .book-info {
+    margin-bottom: 0.5rem;
+  }
+  
+  .book-title {
+    font-weight: bold;
+  }
+  
+  .book-actions {
+    display: flex;
+  }
+  
+  .book-actions .edit-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-actions .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .book-actions .delete-button {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-actions .delete-button:hover {
+    background-color: #c82333;
+  }
+  

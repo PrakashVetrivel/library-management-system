@@ -1,0 +1,14 @@
+.books-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0.5rem;
+    padding: 1rem;
+    
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+

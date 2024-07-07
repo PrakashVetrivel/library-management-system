@@ -1,0 +1,50 @@
+/* Authors.css */
+
+.authors-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.author-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.author-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.author-details {
+    margin-top: 0.5rem;
+    color: #666;
+}
+
+.author-bio {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.author-actions {
+    margin-top: 1rem;
+}
+
+.author-actions button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.author-actions button:hover {
+    background-color: #0056b3;
+}

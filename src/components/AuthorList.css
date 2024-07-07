@@ -1,0 +1,47 @@
+/* AuthorList.css */
+
+.author-list {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  
+  .author-name {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .author-actions {
+    display: flex;
+  }
+  
+  .author-actions .edit-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .author-actions .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .author-actions .delete-button {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .author-actions .delete-button:hover {
+    background-color: #c82333;
+  }
+  
